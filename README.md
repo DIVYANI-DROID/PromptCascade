@@ -38,6 +38,7 @@ flowchart LR
     D -->|Output: Challenge| E[User Prompt: Propose Agentic AI Solution]
     E --> F[LLM Call 3: gpt-4.1-mini]
     F -->|Final Solution| G[Markdown Display in Notebook]
+    ![PromptCascade Flow](assets/PromptCascade_flow_svg.svg)
 
 🧠 Example Flow
 Step 1 – Select Business Area
