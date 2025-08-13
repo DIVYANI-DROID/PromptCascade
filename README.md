@@ -38,7 +38,7 @@ flowchart LR
     D -->|Output: Challenge| E[User Prompt: Propose Agentic AI Solution]
     E --> F[LLM Call 3: gpt-4.1-mini]
     F -->|Final Solution| G[Markdown Display in Notebook]
-    ![PromptCascade Flow](assets/PromptCascade_flow_svg.svg)
+
 
 🧠 Example Flow
 Step 1 – Select Business Area
@@ -54,6 +54,8 @@ Step 3 – Propose Agentic AI Solution
 "Please propose an Agentic AI solution to resolve the challenge."
 LLM Output:
 Autonomous agents that continuously monitor IoT, GPS, and weather data to proactively re-route shipments and coordinate across stakeholders in real-time.
+
+![PromptCascade Flow](assets/PromptCascade_flow_svg.svg)
 
 📈 Learning Outcomes
 From this project, I learned:
